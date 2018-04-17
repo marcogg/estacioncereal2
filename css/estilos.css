@@ -134,17 +134,17 @@ header{
 	}
 .background-navbar{
 	background-color:#552c88;
-	box-shadow: 8px 8px 8px rgba(0,0,0,.15)
+	box-shadow: 8px 8px 15px rgba(0,0,0,.35)
 }
 
 h1, h2, h3, h4{
-	font-family: 'Passion One', cursive;
+	font-family: 'Oswald', sans-serif;
 }
 p{
 	font-family: 'Comfortaa', cursive;
 }
 h5, h6{
-	font-family: 'Lobster', cursive;	
+	font-family: 'Oswald', sans-serif;	
 }
 .footer-background{
 	background-color: #16264f!important;
@@ -204,11 +204,30 @@ h5, h6{
 .cereal-lover{
 	background-color: #accfe5;
 	border-radius: 40px;
-	padding:3%;
+	padding:5%;
 }
 
 .productos{
 	margin: auto;
 	text-align: center;
+	padding:3%;
+}
+
+.img-productos{
+	width: 80%;
+	height: auto;
+}
+
+.header-productos{
+	background-color: #41b1b0;
+	color: white;
+	padding: 1%;
+}
+
+.cereal-background{
+	background-image: url(media/images/cereal-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
 }
 /*Animacion logo slider-----------------------*/
