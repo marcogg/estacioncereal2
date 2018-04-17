@@ -193,4 +193,22 @@ h5, h6{
 	position: relative;
 	margin: auto;
 }
+.card-background{
+	background-image: url(media/images/textura-cereal-fondo-azul.jpg) !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	
+}
+
+.cereal-lover{
+	background-color: #accfe5;
+	border-radius: 40px;
+	padding:3%;
+}
+
+.productos{
+	margin: auto;
+	text-align: center;
+}
 /*Animacion logo slider-----------------------*/
