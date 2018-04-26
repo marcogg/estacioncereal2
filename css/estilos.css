@@ -251,6 +251,12 @@ h1{
 	padding-top: 3%;
 }
 
+.medios{
+	max-width: 60%;
+}
 
+#medios{
+	background-color: #f7f7f7;
+}
 /*Animacion menu-----------------------*/
 
