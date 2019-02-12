@@ -14,11 +14,11 @@
     
     
     <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#4b097f">
+    <meta name="theme-color" content="#000000">
     <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#4b097f">
+    <meta name="msapplication-navbutton-color" content="#000000">
     <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#4b097f">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
     <title>Estacion Cereal - Cereal bar</title>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -64,16 +64,8 @@
         </div>
       </nav>
       <header class="text-white">
-        <div id="header-container padding-header" style="background-image: url('./media/images/imagenPrincipal.jpg'); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; width: 100%; height: 100vh; background-position: center center;">
-          <!--<video autoplay loop muted id="slider-background" style="min-width: 100vw;">
-            <source src="media/video/neon_pizarron3.mp4" type="video/mp4" >
-            <source src="media/video/neon_pizarron.webm" type="video/webm">
-            <source src="media/video/neon_pizarron.avi" type="video/avi">
-            <source src="media/video/neon_pizarron.ogv" type="video/ogg">
-          </video>-->
-          <div id="slider-thumbnail">
-            <!--<img src="media/images/imagenPrincipal.jpg" class="img-responsive" style="width:100%; height: 100%; margin-top: 13%;">-->
-          </div>
+        <div id="header-container padding-header" class="principal">
+          <div style="height: 100vh;"></div>
         </div>
         <div class="container text-center">
         </div>
@@ -118,9 +110,9 @@
         </div>
       </section>
       <section style="padding: 0 !important;">
-        <div class="container-full" style="background-image: url('./media/images/imagenproductos.jpg'); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; width: 100%; height: 100%; background-position: center right;">
+        <div class="container-full productos" >
           <div class="row">
-            <div class="col-lg-8" style="color: white; padding: 8%; font-size: 1.5em; ">
+            <div class="col-lg-8 text-shadow" style="color: white; padding: 8%; font-size: 1.5em; ">
               <span style="font-family: 'Oduda';" class="text-uppercase">"Somos el paraíso perfecto para cualquier cerealover"</span>
               <br>
               <p>Contamos con más de 150 marcas nacionales e internacionales de <span style="font-style:'Oduda'; ">CEREAL.</span></p>
@@ -147,7 +139,7 @@
               <p>Promoción válida durante el mismo mes. En tu tercera visita estación cereal te regala <strong>una bola de helado + 1 topping extra</strong> en la compra de cualquier cereal.
               El <strong>cereal internacional y nacional</strong> están incluidos en el <strong>bowl fat de la quinta visita.</strong></p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12" style="background-image: url('./media/images/cerealover_bg.jpg'); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; width: 100%; height: 100%; background-position: center right; padding:5%; ">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 card-cereal">
               <img src="media/images/tarjeta.png" class="img-fluid">
             </div>
           </div>
@@ -155,7 +147,7 @@
       </section>
       <!----------NUESTROS FAVORITOS-------------------->
       <section style="padding: 0 !important;">
-        <div class="container-fluid" style="background-image: url('./media/images/favoritos_bg.jpg'); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; width: 100%; height: 100%; background-position: center right;">
+        <div class="container-fluid favoritos">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center my-5">
               <h2 style="font-family: 'Oduda'; font-size: 4em;" class="text-center text-white text-uppercase">Nuestros favoritos</h2>
@@ -252,24 +244,33 @@
       </section>
       <!--CONTACTO---------------->
       <section id="contacto">
-      	<div class="container">	
+      	<div class="container" style="margin-bottom: 5%;">	
       		<div class="row">
-      			<div class="col-lg-6 col-md-6 col-sm-12 col-12" style="padding:2%; font-size: 1.5em;">
-      				<p style="font-family: 'Oduda'; color:#d92a49;">CONTACTO</p>
+      			<div class="col-lg-12 col-md-12 col-sm-12 col-12" style="padding:2%; font-size: 1.5em;">
+      				<p style="font-family: 'Oduda'; color:#d92a49; font-size: 2em;">CONTACTO</p>
               <br>
-              <p style="color:#82bc00; font-family: 'Oduda';">COMPRA 5 Y TE REGALAMOS UN BOWL FAT</p>
+              <p style="color:#82bc00; font-family: 'Oduda'; font-size: 1.5em">COMPRA 5 Y TE REGALAMOS UN BOWL FAT</p>
               <br>
-              <p>Visítanos en Cuernavaca no.44, Condesa, Ciudad de México o mándanos un email a:<br>
+              <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <iframe class="mb-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.9546654533074!2d-99.1762100539109!3d19.414364648292086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff44403a41f9%3A0x1a4d0a15d14c6a2e!2sCuernavaca+44%2C+Condesa%2C+06140+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses!2smx!4v1522881929789" frameborder="0" style="border:0; width: 100%; min-height: 200px;" allowfullscreen></iframe>
+                <strong>Sucursal Condesa</strong>
+                <p>Cuernavaca, no. 44, Condesa, Ciudad de México</p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <iframe class="mb-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60217.43398526799!2d-99.20573811803095!3d19.38691401480513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffcf46b1cccd%3A0x7d874c2e6f9aa41b!2sDel+Carmen%2C+04100+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses!2smx!4v1550002292197" frameborder="0" style="border:0; width: 100%; min-height: 200px;" allowfullscreen></iframe>
+                <strong>Sucursal Coyoacán</strong>
+                <p>Xicoténcatl, no. 173, Dentro de la plaza San José, Coyoacán, Ciudad de México</p>
+              </div>
+              </div>
+              <p>Mándanos un email a:<br>
               	<a href="mailto:contacto@estacioncereal.com">contacto@estacioncereal.com</a>
               </p>
-      			</div>
-      			<div class="col-lg-6 col-md-6 col-sm-12 col-12">
-      				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.9546654533074!2d-99.1762100539109!3d19.414364648292086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff44403a41f9%3A0x1a4d0a15d14c6a2e!2sCuernavaca+44%2C+Condesa%2C+06140+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses!2smx!4v1522881929789" frameborder="0" style="border:0; width: 100%; min-height: 400px;" allowfullscreen></iframe>
       			</div>
       		</div>
       	</div>
       </section>
-      <footer class="py-5 footer-background">
+      <footer class="py-5 footer-background mobile-margin">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-12">

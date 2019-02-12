@@ -48,14 +48,11 @@ url("./fonts/OstrichSans-Medium.otf") format("otf"),
 	.logo{
 		display: none;
 	}
-	#padding-header{
-
-	}
 }
 
 
 #header-container{
-	background-image: url('..../media/images/imagenPrincipal.jpg');
+	background-image: url('../media/images/imagenPrincipal.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -282,6 +279,9 @@ h1{
 	padding: 10%;
 }
 
+
+
+
 /*MULTI-ITEM CAROUSEL------------------------*/
 .MultiCarousel { float: left; overflow: hidden; padding: 0; width: 100%; position:relative; }
     .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
@@ -294,7 +294,7 @@ h1{
         .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
 
 
-@media screen and (max-width: 768px;){
+@media screen and (max-width: 768px){
 	.padding-boxes{
 		padding: 7%;
 	}
@@ -303,4 +303,115 @@ h1{
 .sombra{
 	  -webkit-box-shadow: 0 10px 15px -4px #b40037, 0 10px 8px -10px #b40037;
           box-shadow: 0 10px 15px -4px #b40037, 0 10px 8px -10px #b40037;
+}
+
+@media screen and (max-width: 768px){
+	.mobile-margin{
+		margin-top: 15% !important;
+	}
+}
+
+
+
+
+@media screen and (min-width: 768px){
+	.productos{
+		background-image: url('../media/images/imagenproductos.jpg'); 
+		background-size: cover; 
+		-o-background-size: cover;  
+		-moz-background-size: cover; 
+		-webkit-background-size:cover;
+		background-repeat: no-repeat; 
+		background-attachment: fixed; 
+		width: 100%; 
+		height: 100%; 
+		background-position: center right;
+	}
+	.principal{
+		background-image: url('../media/images/imagenPrincipal.jpg');
+		background-attachment: fixed;
+		background-size: cover; 
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size:cover;
+		background-repeat: no-repeat; 
+		width: 100%; 
+		height: 100vh; 
+		background-position: center center;
+		
+	}
+	.card-cereal{
+		background-image: url('../media/images/cerealover_bg.jpg');
+		background-attachment: fixed;
+		background-size: cover; 
+        -o-background-size: cover; 
+        -moz-background-size: cover;    
+        -webkit-background-size:cover;
+        background-repeat: no-repeat; 
+        width: 100%; 
+        height: 100%; 
+        background-position: center right;
+        padding:5%; 
+	}
+	.favoritos{
+		background-image: url('../media/images/favoritos_bg.jpg');
+		background-attachment: fixed;
+		background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size:cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+		background-position: center right;
+	}
+	
+}
+
+@media screen and (max-width: 768px){
+	.productos{
+		background-image: url('../media/images/imagenproductos.jpg'); 
+		background-size: cover; 
+		-o-background-size: cover;  
+		-moz-background-size: cover; 
+		-webkit-background-size:cover;
+		background-repeat: no-repeat; 
+		width: 100%; 
+		height: 100%; 
+		background-position: -1500px;
+	}
+	.principal{
+		background-image: url('../media/images/imagenPrincipal.jpg');
+		background-size: cover; 
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size:cover;
+		background-repeat: no-repeat; 
+		width: 100%; 
+		height: 100vh; 
+		background-position: center;	
+	}
+	.card-cereal{
+		background-image: url('../media/images/cerealover_bg.jpg');
+		background-size: cover; 
+        -o-background-size: cover; 
+        -moz-background-size: cover;    
+        -webkit-background-size:cover;
+        background-repeat: no-repeat; 
+        width: 100%; 
+        height: 100%; 
+        background-position: center right;
+        padding:5%; 
+	}
+	.favoritos{
+		background-image: url('../media/images/favoritos_bg.jpg');
+		background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size:cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+		background-position: center right;
+	}
 }
