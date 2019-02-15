@@ -54,7 +54,7 @@ url("./fonts/OstrichSans-Medium.otf") format("otf"),
 #header-container{
 	background-image: url('../media/images/imagenPrincipal.jpg');
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 70vh;
@@ -317,7 +317,7 @@ h1{
 @media screen and (min-width: 768px){
 	.productos{
 		background-image: url('../media/images/imagenproductos.jpg'); 
-		background-size: cover; 
+		background-size: 100% 100%; 
 		-o-background-size: cover;  
 		-moz-background-size: cover; 
 		-webkit-background-size:cover;
@@ -330,7 +330,7 @@ h1{
 	.principal{
 		background-image: url('../media/images/imagenPrincipal.jpg');
 		background-attachment: fixed;
-		background-size: cover; 
+		background-size: 100% 100%; 
 		-o-background-size: cover;
 		-moz-background-size: cover;
 		-webkit-background-size:cover;
@@ -343,7 +343,7 @@ h1{
 	.card-cereal{
 		background-image: url('../media/images/cerealover_bg.jpg');
 		background-attachment: fixed;
-		background-size: cover; 
+		background-size: 100% 100%; 
         -o-background-size: cover; 
         -moz-background-size: cover;    
         -webkit-background-size:cover;
@@ -356,7 +356,7 @@ h1{
 	.favoritos{
 		background-image: url('../media/images/favoritos_bg.jpg');
 		background-attachment: fixed;
-		background-size: cover;
+		background-size: 100% 100%;
 		-o-background-size: cover;
 		-moz-background-size: cover;
 		-webkit-background-size:cover;
@@ -371,7 +371,7 @@ h1{
 @media screen and (max-width: 768px){
 	.productos{
 		background-image: url('../media/images/imagenproductos.jpg'); 
-		background-size: cover; 
+		background-size: 100% 100%; 
 		-o-background-size: cover;  
 		-moz-background-size: cover; 
 		-webkit-background-size:cover;
@@ -384,7 +384,7 @@ h1{
 	}
 	.principal{
 		background-image: url('../media/images/imagenPrincipal.jpg');
-		background-size: cover; 
+		background-size: 100% 100%; 
 		-o-background-size: cover;
 		-moz-background-size: cover;
 		-webkit-background-size:cover;
@@ -397,7 +397,7 @@ h1{
 	}
 	.card-cereal{
 		background-image: url('../media/images/cerealover_bg.jpg');
-		background-size: cover; 
+		background-size: 100% 100%; 
         -o-background-size: cover; 
         -moz-background-size: cover;    
         -webkit-background-size:cover;
@@ -411,7 +411,7 @@ h1{
 	}
 	.favoritos{
 		background-image: url('../media/images/favoritos_bg.jpg');
-		background-size: cover;
+		background-size: 100% 100%;
 		-o-background-size: cover;
 		-moz-background-size: cover;
 		-webkit-background-size:cover;
